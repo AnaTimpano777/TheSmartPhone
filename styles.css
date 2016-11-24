@@ -1,0 +1,98 @@
+/*  W3schools
+*   Net Ninja - Styling HTML forms
+*   GetHub Pages
+*   How to style the hobbies and gender
+*/
+
+
+body {
+ padding: 0;
+ font-family: 'Proza Libre', sans-serif;
+ background-image: url(symphony.png);
+ background-repeat: repeat;    
+}
+
+*, *:before, *:after{
+ box-sizing: border-box;   
+}
+
+header {
+ margin: 0 auto;
+ max-width: 960px;
+ text-align: center;
+ color: darkblue;
+}
+
+nav ul {
+    list-style: none;   
+}
+    
+nav li {
+    display: inline;
+}
+
+nav a {
+ text-decoration: none;   
+}
+
+nav a:hover {
+ color: black;
+}
+
+main {
+ max-width: 960px;
+ margin: 65px auto;
+ color: darkblue;
+ text-align: center;
+}
+
+footer {
+ max-width: 960px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+section ul {
+ list-style: none;
+}
+
+img {
+ align-content: center;   
+}
+
+.smartphone{
+    text-align: center;
+}
+
+/* FORM STYLES */
+
+input[type=text], select {
+ width: 100%;
+ padding: 5px 10px;
+ border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+label {
+ padding-bottom: 5px;   
+}
+
+button {
+ padding: 6px 75px;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ 
+}
+
+button:hover{
+    cursor:pointer;
+    color: black;
+    background-color: aquamarine;
+}
